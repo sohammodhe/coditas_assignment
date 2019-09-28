@@ -40,7 +40,7 @@ public class SearchRepositoriesApiController {
 		return new ResponseEntity<Map<String, List<Map<String, Object>>>>(response, HttpStatus.OK);
 	}
 
-	@GetMapping(value = "/user/{userName}")
+	@GetMapping(value = "/users/{userName}")
 	public ResponseEntity<?> getAllReposForUserInJsonFormat(@PathVariable("userName") String userName) throws JsonProcessingException {
 
 		LOGGER.info("Fetching all the repos for user -> {} ", userName);
