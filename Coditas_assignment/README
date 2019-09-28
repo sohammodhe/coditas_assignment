@@ -1,0 +1,6 @@
+This application is designed using SpringBoot and is
+
+
+The services are created as an interface so as to allow future API integration.
+
+ 

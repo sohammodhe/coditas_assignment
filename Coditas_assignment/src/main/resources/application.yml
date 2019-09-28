@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: coditas-assignment
+server:
+  port: 8070
+middleware:
+  github-url: https://api.github.com
+  gitlab-url: http://example.com/api/v4

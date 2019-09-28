@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "middleware",
+      "type": "com.coditas.assignment.properties.MiddlewareServiceProperties",
+      "sourceType": "com.coditas.assignment.properties.MiddlewareServiceProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "middleware.github-url",
+      "type": "java.lang.String",
+      "sourceType": "com.coditas.assignment.properties.MiddlewareServiceProperties"
+    },
+    {
+      "name": "middleware.gitlab-url",
+      "type": "java.lang.String",
+      "sourceType": "com.coditas.assignment.properties.MiddlewareServiceProperties"
+    }
+  ],
+  "hints": []
+}
